@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:showAsAction="always"
+        android:title="@string/item1">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item
+                android:id="@+id/subitem1"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="@string/subitem1"/>
+            <item
+                android:id="@+id/subitem2"
+                android:icon="@android:drawable/ic_menu_camera"
+                android:title="@string/subitem2"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/item2"/>
+    <item
+        android:id="@+id/item3"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom"
+        android:title="@string/item3"/>
+
+</menu>
